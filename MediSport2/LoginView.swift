@@ -26,7 +26,7 @@ struct LoginView: View {
             Button(action: {
                 authViewModel.login(username: username, password: password)
             }) {
-                Text("Login test")
+                Text("Login")
                     .font(.title2)
                     .padding()
                     .background(Color.blue)
