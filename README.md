@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # MediSport2
 
 MediSport2 is an innovative app designed to help users identify and manage sports injuries through an intuitive user interface. This project leverages SwiftUI to provide an engaging and user-friendly experience.
@@ -74,4 +73,4 @@ MediSport2 is an innovative app designed to help users identify and manage sport
 
 - **SwiftUI**: For providing an amazing framework to build modern iOS applications.
 - **Encyclopaedia Britannica, Inc.**: For the anatomical image used in the app.
-```
+
