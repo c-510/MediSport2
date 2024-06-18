@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		675AA2432C072D7300E20092 /* UpperOrLower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675AA2422C072D7300E20092 /* UpperOrLower.swift */; };
+		6762285F2C083ABB00993E74 /* InjuryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6762285E2C083ABB00993E74 /* InjuryView.swift */; };
+		67FBEB1A2C072AA3004E826D /* MediSportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB192C072AA3004E826D /* MediSportApp.swift */; };
+		67FBEB1C2C072AA3004E826D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB1B2C072AA3004E826D /* ContentView.swift */; };
+		67FBEB1E2C072AA3004E826D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB1D2C072AA3004E826D /* Item.swift */; };
+		67FBEB202C072AA4004E826D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FBEB1F2C072AA4004E826D /* Assets.xcassets */; };
+		67FBEB242C072AA4004E826D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FBEB232C072AA4004E826D /* Preview Assets.xcassets */; };
+		67FBEB2E2C072AA4004E826D /* MediSport2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB2D2C072AA4004E826D /* MediSport2Tests.swift */; };
+		67FBEB382C072AA4004E826D /* MediSport2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB372C072AA4004E826D /* MediSport2UITests.swift */; };
+		67FBEB3A2C072AA4004E826D /* MediSport2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB392C072AA4004E826D /* MediSport2UITestsLaunchTests.swift */; };
+		D130914C2C086A8C00378B35 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130914B2C086A8C00378B35 /* User.swift */; };
+		D130914E2C086C0F00378B35 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130914D2C086C0E00378B35 /* LoginView.swift */; };
+		D13091502C086C4800378B35 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130914F2C086C4800378B35 /* RegisterView.swift */; };
+		D13091522C086C6E00378B35 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13091512C086C6D00378B35 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67FBEB2A2C072AA4004E826D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67FBEB0E2C072AA3004E826D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67FBEB152C072AA3004E826D;
+			remoteInfo = MediSport2;
+		};
+		67FBEB342C072AA4004E826D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67FBEB0E2C072AA3004E826D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67FBEB152C072AA3004E826D;
+			remoteInfo = MediSport2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		675AA2422C072D7300E20092 /* UpperOrLower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperOrLower.swift; sourceTree = "<group>"; };
+		6762285E2C083ABB00993E74 /* InjuryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuryView.swift; sourceTree = "<group>"; };
+		67FBEB162C072AA3004E826D /* MediSport2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediSport2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FBEB192C072AA3004E826D /* MediSportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSportApp.swift; sourceTree = "<group>"; };
+		67FBEB1B2C072AA3004E826D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67FBEB1D2C072AA3004E826D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		67FBEB1F2C072AA4004E826D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67FBEB212C072AA4004E826D /* MediSport2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MediSport2.entitlements; sourceTree = "<group>"; };
+		67FBEB232C072AA4004E826D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67FBEB292C072AA4004E826D /* MediSport2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediSport2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FBEB2D2C072AA4004E826D /* MediSport2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSport2Tests.swift; sourceTree = "<group>"; };
+		67FBEB332C072AA4004E826D /* MediSport2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediSport2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FBEB372C072AA4004E826D /* MediSport2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSport2UITests.swift; sourceTree = "<group>"; };
+		67FBEB392C072AA4004E826D /* MediSport2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSport2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D130914B2C086A8C00378B35 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D130914D2C086C0E00378B35 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D130914F2C086C4800378B35 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D13091512C086C6D00378B35 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67FBEB132C072AA3004E826D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FBEB262C072AA4004E826D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FBEB302C072AA4004E826D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67FBEB0D2C072AA3004E826D = {
+			isa = PBXGroup;
+			children = (
+				67FBEB182C072AA3004E826D /* MediSport2 */,
+				67FBEB2C2C072AA4004E826D /* MediSport2Tests */,
+				67FBEB362C072AA4004E826D /* MediSport2UITests */,
+				67FBEB172C072AA3004E826D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67FBEB172C072AA3004E826D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67FBEB162C072AA3004E826D /* MediSport2.app */,
+				67FBEB292C072AA4004E826D /* MediSport2Tests.xctest */,
+				67FBEB332C072AA4004E826D /* MediSport2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67FBEB182C072AA3004E826D /* MediSport2 */ = {
+			isa = PBXGroup;
+			children = (
+				67FBEB192C072AA3004E826D /* MediSportApp.swift */,
+				67FBEB1B2C072AA3004E826D /* ContentView.swift */,
+				D130914B2C086A8C00378B35 /* User.swift */,
+				675AA2422C072D7300E20092 /* UpperOrLower.swift */,
+				D130914D2C086C0E00378B35 /* LoginView.swift */,
+				6762285E2C083ABB00993E74 /* InjuryView.swift */,
+				D130914F2C086C4800378B35 /* RegisterView.swift */,
+				D13091512C086C6D00378B35 /* MainView.swift */,
+				67FBEB1D2C072AA3004E826D /* Item.swift */,
+				67FBEB1F2C072AA4004E826D /* Assets.xcassets */,
+				67FBEB212C072AA4004E826D /* MediSport2.entitlements */,
+				67FBEB222C072AA4004E826D /* Preview Content */,
+			);
+			path = MediSport2;
+			sourceTree = "<group>";
+		};
+		67FBEB222C072AA4004E826D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67FBEB232C072AA4004E826D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67FBEB2C2C072AA4004E826D /* MediSport2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67FBEB2D2C072AA4004E826D /* MediSport2Tests.swift */,
+			);
+			path = MediSport2Tests;
+			sourceTree = "<group>";
+		};
+		67FBEB362C072AA4004E826D /* MediSport2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				67FBEB372C072AA4004E826D /* MediSport2UITests.swift */,
+				67FBEB392C072AA4004E826D /* MediSport2UITestsLaunchTests.swift */,
+			);
+			path = MediSport2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67FBEB152C072AA3004E826D /* MediSport2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FBEB3D2C072AA4004E826D /* Build configuration list for PBXNativeTarget "MediSport2" */;
+			buildPhases = (
+				67FBEB122C072AA3004E826D /* Sources */,
+				67FBEB132C072AA3004E826D /* Frameworks */,
+				67FBEB142C072AA3004E826D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediSport2;
+			productName = MediSport2;
+			productReference = 67FBEB162C072AA3004E826D /* MediSport2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67FBEB282C072AA4004E826D /* MediSport2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FBEB402C072AA4004E826D /* Build configuration list for PBXNativeTarget "MediSport2Tests" */;
+			buildPhases = (
+				67FBEB252C072AA4004E826D /* Sources */,
+				67FBEB262C072AA4004E826D /* Frameworks */,
+				67FBEB272C072AA4004E826D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67FBEB2B2C072AA4004E826D /* PBXTargetDependency */,
+			);
+			name = MediSport2Tests;
+			productName = MediSport2Tests;
+			productReference = 67FBEB292C072AA4004E826D /* MediSport2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67FBEB322C072AA4004E826D /* MediSport2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FBEB432C072AA4004E826D /* Build configuration list for PBXNativeTarget "MediSport2UITests" */;
+			buildPhases = (
+				67FBEB2F2C072AA4004E826D /* Sources */,
+				67FBEB302C072AA4004E826D /* Frameworks */,
+				67FBEB312C072AA4004E826D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67FBEB352C072AA4004E826D /* PBXTargetDependency */,
+			);
+			name = MediSport2UITests;
+			productName = MediSport2UITests;
+			productReference = 67FBEB332C072AA4004E826D /* MediSport2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67FBEB0E2C072AA3004E826D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					67FBEB152C072AA3004E826D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					67FBEB282C072AA4004E826D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 67FBEB152C072AA3004E826D;
+					};
+					67FBEB322C072AA4004E826D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 67FBEB152C072AA3004E826D;
+					};
+				};
+			};
+			buildConfigurationList = 67FBEB112C072AA3004E826D /* Build configuration list for PBXProject "MediSport2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67FBEB0D2C072AA3004E826D;
+			productRefGroup = 67FBEB172C072AA3004E826D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67FBEB152C072AA3004E826D /* MediSport2 */,
+				67FBEB282C072AA4004E826D /* MediSport2Tests */,
+				67FBEB322C072AA4004E826D /* MediSport2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67FBEB142C072AA3004E826D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FBEB242C072AA4004E826D /* Preview Assets.xcassets in Resources */,
+				67FBEB202C072AA4004E826D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FBEB272C072AA4004E826D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FBEB312C072AA4004E826D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67FBEB122C072AA3004E826D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6762285F2C083ABB00993E74 /* InjuryView.swift in Sources */,
+				D13091522C086C6E00378B35 /* MainView.swift in Sources */,
+				D130914E2C086C0F00378B35 /* LoginView.swift in Sources */,
+				67FBEB1C2C072AA3004E826D /* ContentView.swift in Sources */,
+				D130914C2C086A8C00378B35 /* User.swift in Sources */,
+				67FBEB1E2C072AA3004E826D /* Item.swift in Sources */,
+				D13091502C086C4800378B35 /* RegisterView.swift in Sources */,
+				67FBEB1A2C072AA3004E826D /* MediSportApp.swift in Sources */,
+				675AA2432C072D7300E20092 /* UpperOrLower.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FBEB252C072AA4004E826D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FBEB2E2C072AA4004E826D /* MediSport2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FBEB2F2C072AA4004E826D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FBEB382C072AA4004E826D /* MediSport2UITests.swift in Sources */,
+				67FBEB3A2C072AA4004E826D /* MediSport2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67FBEB2B2C072AA4004E826D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67FBEB152C072AA3004E826D /* MediSport2 */;
+			targetProxy = 67FBEB2A2C072AA4004E826D /* PBXContainerItemProxy */;
+		};
+		67FBEB352C072AA4004E826D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67FBEB152C072AA3004E826D /* MediSport2 */;
+			targetProxy = 67FBEB342C072AA4004E826D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67FBEB3B2C072AA4004E826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67FBEB3C2C072AA4004E826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		67FBEB3E2C072AA4004E826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MediSport2/MediSport2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MediSport2/Preview Content\"";
+				DEVELOPMENT_TEAM = 9HP53RCMXR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orbital.MediSport2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67FBEB3F2C072AA4004E826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MediSport2/MediSport2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MediSport2/Preview Content\"";
+				DEVELOPMENT_TEAM = 9HP53RCMXR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orbital.MediSport2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67FBEB412C072AA4004E826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HP53RCMXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orbital.MediSport2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediSport2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediSport2";
+			};
+			name = Debug;
+		};
+		67FBEB422C072AA4004E826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HP53RCMXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orbital.MediSport2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediSport2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediSport2";
+			};
+			name = Release;
+		};
+		67FBEB442C072AA4004E826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HP53RCMXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orbital.MediSport2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediSport2;
+			};
+			name = Debug;
+		};
+		67FBEB452C072AA4004E826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9HP53RCMXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = orbital.MediSport2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MediSport2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67FBEB112C072AA3004E826D /* Build configuration list for PBXProject "MediSport2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FBEB3B2C072AA4004E826D /* Debug */,
+				67FBEB3C2C072AA4004E826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FBEB3D2C072AA4004E826D /* Build configuration list for PBXNativeTarget "MediSport2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FBEB3E2C072AA4004E826D /* Debug */,
+				67FBEB3F2C072AA4004E826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FBEB402C072AA4004E826D /* Build configuration list for PBXNativeTarget "MediSport2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FBEB412C072AA4004E826D /* Debug */,
+				67FBEB422C072AA4004E826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FBEB432C072AA4004E826D /* Build configuration list for PBXNativeTarget "MediSport2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FBEB442C072AA4004E826D /* Debug */,
+				67FBEB452C072AA4004E826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67FBEB0E2C072AA3004E826D /* Project object */;
+}
