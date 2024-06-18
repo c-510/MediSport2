@@ -23,7 +23,7 @@ struct MainView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
             NavigationLink(destination: UpperOrLower()) {
-                Text("Injured? Click!")
+                Text("Injured? Click here!")
                     .font(.title2)
                     .padding()
                     .background(Color.blue)
