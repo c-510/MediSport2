@@ -15,7 +15,7 @@ struct LoginView: View {
     
     var body: some View {
         VStack {
-            TextField("Username", text: $username)
+            TextField("Username1", text: $username)
                 .padding()
                 .background(Color(.secondarySystemBackground))
                 .cornerRadius(5)
