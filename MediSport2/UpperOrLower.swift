@@ -16,7 +16,7 @@ struct UpperOrLower: View {
                 .padding()
                 .multilineTextAlignment(.center)
             Spacer()
-            NavigationLink(destination: InjuryView(bodyPart: "Upper")) {
+            NavigationLink(destination: BodyPartSelectionView(bodyPart: "Upper")) {
                 Text("Upper Body")
                     .font(.title2)
                     .padding()
@@ -25,7 +25,7 @@ struct UpperOrLower: View {
                     .cornerRadius(10)
                     .padding(.bottom, 20)
             }
-            NavigationLink(destination: InjuryView(bodyPart: "Lower")) {
+            NavigationLink(destination: BodyPartSelectionView(bodyPart: "Lower")) {
                 Text("Lower Body")
                     .font(.title2)
                     .padding()

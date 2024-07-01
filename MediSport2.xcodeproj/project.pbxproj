@@ -17,6 +17,16 @@
 		67FBEB2E2C072AA4004E826D /* MediSport2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB2D2C072AA4004E826D /* MediSport2Tests.swift */; };
 		67FBEB382C072AA4004E826D /* MediSport2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB372C072AA4004E826D /* MediSport2UITests.swift */; };
 		67FBEB3A2C072AA4004E826D /* MediSport2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB392C072AA4004E826D /* MediSport2UITestsLaunchTests.swift */; };
+		D1062AD02C30839C002386EE /* BodyPartSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1062ACF2C30839C002386EE /* BodyPartSelectionView.swift */; };
+		D1062AD22C3083AE002386EE /* SymptomSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1062AD12C3083AE002386EE /* SymptomSelectionView.swift */; };
+		D1062AD62C313A32002386EE /* DiagnosisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1062AD52C313A32002386EE /* DiagnosisView.swift */; };
+		D1062AD92C31CC72002386EE /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = D1062AD82C31CC72002386EE /* Auth */; };
+		D1062ADB2C31CC72002386EE /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = D1062ADA2C31CC72002386EE /* Functions */; };
+		D1062ADD2C31CC72002386EE /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = D1062ADC2C31CC72002386EE /* Storage */; };
+		D1062ADF2C31CC72002386EE /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = D1062ADE2C31CC72002386EE /* Supabase */; };
+		D1062AE12C31DC64002386EE /* Diagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1062AE02C31DC64002386EE /* Diagnosis.swift */; };
+		D1062AE32C31DD32002386EE /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1062AE22C31DD32002386EE /* DataLoader.swift */; };
+		D1062AE52C31DDE3002386EE /* diagnosis.json in Resources */ = {isa = PBXBuildFile; fileRef = D1062AE42C31DDE3002386EE /* diagnosis.json */; };
 		D130914C2C086A8C00378B35 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130914B2C086A8C00378B35 /* User.swift */; };
 		D130914E2C086C0F00378B35 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130914D2C086C0E00378B35 /* LoginView.swift */; };
 		D13091502C086C4800378B35 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D130914F2C086C4800378B35 /* RegisterView.swift */; };
@@ -55,6 +65,12 @@
 		67FBEB332C072AA4004E826D /* MediSport2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediSport2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FBEB372C072AA4004E826D /* MediSport2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSport2UITests.swift; sourceTree = "<group>"; };
 		67FBEB392C072AA4004E826D /* MediSport2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediSport2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1062ACF2C30839C002386EE /* BodyPartSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPartSelectionView.swift; sourceTree = "<group>"; };
+		D1062AD12C3083AE002386EE /* SymptomSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomSelectionView.swift; sourceTree = "<group>"; };
+		D1062AD52C313A32002386EE /* DiagnosisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisView.swift; sourceTree = "<group>"; };
+		D1062AE02C31DC64002386EE /* Diagnosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnosis.swift; sourceTree = "<group>"; };
+		D1062AE22C31DD32002386EE /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		D1062AE42C31DDE3002386EE /* diagnosis.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = diagnosis.json; sourceTree = "<group>"; };
 		D130914B2C086A8C00378B35 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D130914D2C086C0E00378B35 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D130914F2C086C4800378B35 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -66,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1062ADF2C31CC72002386EE /* Supabase in Frameworks */,
+				D1062ADD2C31CC72002386EE /* Storage in Frameworks */,
+				D1062ADB2C31CC72002386EE /* Functions in Frameworks */,
+				D1062AD92C31CC72002386EE /* Auth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +138,12 @@
 				D130914F2C086C4800378B35 /* RegisterView.swift */,
 				D13091512C086C6D00378B35 /* MainView.swift */,
 				67FBEB1D2C072AA3004E826D /* Item.swift */,
+				D1062ACF2C30839C002386EE /* BodyPartSelectionView.swift */,
+				D1062AD12C3083AE002386EE /* SymptomSelectionView.swift */,
+				D1062AD52C313A32002386EE /* DiagnosisView.swift */,
+				D1062AE02C31DC64002386EE /* Diagnosis.swift */,
+				D1062AE22C31DD32002386EE /* DataLoader.swift */,
+				D1062AE42C31DDE3002386EE /* diagnosis.json */,
 				67FBEB1F2C072AA4004E826D /* Assets.xcassets */,
 				67FBEB212C072AA4004E826D /* MediSport2.entitlements */,
 				67FBEB222C072AA4004E826D /* Preview Content */,
@@ -166,6 +192,12 @@
 			dependencies = (
 			);
 			name = MediSport2;
+			packageProductDependencies = (
+				D1062AD82C31CC72002386EE /* Auth */,
+				D1062ADA2C31CC72002386EE /* Functions */,
+				D1062ADC2C31CC72002386EE /* Storage */,
+				D1062ADE2C31CC72002386EE /* Supabase */,
+			);
 			productName = MediSport2;
 			productReference = 67FBEB162C072AA3004E826D /* MediSport2.app */;
 			productType = "com.apple.product-type.application";
@@ -238,6 +270,9 @@
 				Base,
 			);
 			mainGroup = 67FBEB0D2C072AA3004E826D;
+			packageReferences = (
+				D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 67FBEB172C072AA3004E826D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -255,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67FBEB242C072AA4004E826D /* Preview Assets.xcassets in Resources */,
+				D1062AE52C31DDE3002386EE /* diagnosis.json in Resources */,
 				67FBEB202C072AA4004E826D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,9 +318,14 @@
 			files = (
 				6762285F2C083ABB00993E74 /* InjuryView.swift in Sources */,
 				D13091522C086C6E00378B35 /* MainView.swift in Sources */,
+				D1062AE32C31DD32002386EE /* DataLoader.swift in Sources */,
 				D130914E2C086C0F00378B35 /* LoginView.swift in Sources */,
+				D1062AD22C3083AE002386EE /* SymptomSelectionView.swift in Sources */,
+				D1062AD62C313A32002386EE /* DiagnosisView.swift in Sources */,
 				67FBEB1C2C072AA3004E826D /* ContentView.swift in Sources */,
+				D1062AD02C30839C002386EE /* BodyPartSelectionView.swift in Sources */,
 				D130914C2C086A8C00378B35 /* User.swift in Sources */,
+				D1062AE12C31DC64002386EE /* Diagnosis.swift in Sources */,
 				67FBEB1E2C072AA3004E826D /* Item.swift in Sources */,
 				D13091502C086C4800378B35 /* RegisterView.swift in Sources */,
 				67FBEB1A2C072AA3004E826D /* MediSportApp.swift in Sources */,
@@ -649,6 +690,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1062AD82C31CC72002386EE /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		D1062ADA2C31CC72002386EE /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		D1062ADC2C31CC72002386EE /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		D1062ADE2C31CC72002386EE /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 67FBEB0E2C072AA3004E826D /* Project object */;
 }

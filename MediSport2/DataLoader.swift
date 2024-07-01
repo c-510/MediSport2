@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+class DataLoader {
+    func loadDiagnosis() -> [Diagnosis] {
+        guard let url = Bundle.main.url(forResource: "diagnosis", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else {
+            return []
+        }
+        
+        let decoder = JSONDecoder()
+        return (try? decoder.decode([Diagnosis].self, from: data)) ?? []
+    }
+}
+

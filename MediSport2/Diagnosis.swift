@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Diagnosis: Codable, Identifiable {
+    var id: String { bodyPart + symptoms.joined() }
+    var bodyPart: String
+    var symptoms: [String]
+    var diagnosis: String
+}
