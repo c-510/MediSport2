@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671EC1582C4FFE0000D98000 /* NoSymptomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671EC1572C4FFE0000D98000 /* NoSymptomView.swift */; };
 		675AA2432C072D7300E20092 /* UpperOrLower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675AA2422C072D7300E20092 /* UpperOrLower.swift */; };
 		6762285F2C083ABB00993E74 /* InjuryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6762285E2C083ABB00993E74 /* InjuryView.swift */; };
 		67FBEB1A2C072AA3004E826D /* MediSportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB192C072AA3004E826D /* MediSportApp.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		671EC1572C4FFE0000D98000 /* NoSymptomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSymptomView.swift; sourceTree = "<group>"; };
 		675AA2422C072D7300E20092 /* UpperOrLower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperOrLower.swift; sourceTree = "<group>"; };
 		6762285E2C083ABB00993E74 /* InjuryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuryView.swift; sourceTree = "<group>"; };
 		67FBEB162C072AA3004E826D /* MediSport2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediSport2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 				67FBEB1D2C072AA3004E826D /* Item.swift */,
 				D1062ACF2C30839C002386EE /* BodyPartSelectionView.swift */,
 				D1062AD12C3083AE002386EE /* SymptomSelectionView.swift */,
+				671EC1572C4FFE0000D98000 /* NoSymptomView.swift */,
 				D1062AD52C313A32002386EE /* DiagnosisView.swift */,
 				D1062AE02C31DC64002386EE /* Diagnosis.swift */,
 				D1062AE22C31DD32002386EE /* DataLoader.swift */,
@@ -321,6 +324,7 @@
 				D1062AE32C31DD32002386EE /* DataLoader.swift in Sources */,
 				D130914E2C086C0F00378B35 /* LoginView.swift in Sources */,
 				D1062AD22C3083AE002386EE /* SymptomSelectionView.swift in Sources */,
+				671EC1582C4FFE0000D98000 /* NoSymptomView.swift in Sources */,
 				D1062AD62C313A32002386EE /* DiagnosisView.swift in Sources */,
 				67FBEB1C2C072AA3004E826D /* ContentView.swift in Sources */,
 				D1062AD02C30839C002386EE /* BodyPartSelectionView.swift in Sources */,
@@ -513,7 +517,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -553,7 +558,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

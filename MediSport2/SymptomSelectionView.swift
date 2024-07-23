@@ -5,7 +5,6 @@
 //  Created by Javier Yeow on 30/6/24.
 //
 
-import Foundation
 import SwiftUI
 
 struct SymptomSelectionView: View {
@@ -60,6 +59,13 @@ struct SymptomSelectionView: View {
                 }
                 .padding(.top, 20)
             }
+            NavigationLink(destination: NoSymptomView()) {
+                Text("If you are unable to find your symptoms, click here")
+                    .padding()
+                    .foregroundColor(.blue)
+                    .underline()
+            }
+            .padding(.top, 10)
         }
     }
     
@@ -97,3 +103,4 @@ struct SymptomSelectionView_Previews: PreviewProvider {
         SymptomSelectionView(bodyPart: "Shoulder")
     }
 }
+
