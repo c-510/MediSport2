@@ -1,0 +1,34 @@
+Injuries,Visibly out of place or misshapen limb,Swelling,Bruising,Bleeding,Pain,Numbness and tingling,Loss of motion,Bone is out of place,Muscle spasms,Confusion/dizziness,Headache,Dizziness,Direct trauma to head,Treatment options
+fracture,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,"1. Seek Medical Attention Immediately
+Visit the emergency room or your healthcare provider as soon as possible to get a professional diagnosis and treatment plan.
+
+2. Immobilize the Affected Area
+Do Not Move the Injured Area: Keep the fracture as still as possible to prevent further injury.
+Use a Splint: If available, use a splint or a sturdy object like a board to stabilize the limb until you can get medical help.
+
+3. Apply Ice
+Reduce Swelling: Apply an ice pack wrapped in a cloth to the injured area for 15-20 minutes every hour. Do not apply ice directly to the skin.
+
+4.Control Bleeding (if applicable)
+Use a Clean Cloth or Bandage: Apply gentle pressure to stop any bleeding. If the bone is protruding, do not try to push it back in.
+
+5. Elevate the Injury
+Reduce Swelling: Keep the injured area raised above heart level if possible to minimize swelling."
+dislocation,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,"1. Seek Medical Attention Immediately
+Emergency Care: Call for emergency medical help or go to the nearest emergency room as soon as possible.
+
+2. Do Not Attempt to Relocate the Joint
+Avoid Self-Adjustment: Do not try to pop the joint back into place yourself, as this can cause further injury to the ligaments, blood vessels, and nerves.
+
+3. Immobilize the Joint
+Use a Sling or Splint: Keep the joint as still as possible. Use a sling for a shoulder dislocation or a splint for other joints to prevent movement.
+
+4. Apply Ice
+Reduce Swelling and Pain: Apply an ice pack or a cold compress to the affected area for 15-20 minutes at a time. Do not apply ice directly to the skin; wrap it in a cloth or towel.
+
+5. Elevate the Injured Area
+Reduce Swelling: If possible, elevate the injured limb above the level of the heart to help reduce swelling."
+sprain ,N,Y,Y,N,Y,N,N,N,N,N,N,N,N,
+strain,N,Y,N,N,Y,Y,N,N,Y,N,N,N,N,
+concussion,N,N,N,N,Y,N,N,N,N,Y,Y,Y,Y,
+heat exhaustion,N,N,N,N,N,Y,N,N,N,Y,Y,Y,N,
