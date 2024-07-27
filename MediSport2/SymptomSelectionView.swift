@@ -4,7 +4,6 @@
 //
 //  Created by Javier Yeow on 30/6/24.
 //
-
 import SwiftUI
 
 struct SymptomSelectionView: View {
@@ -43,6 +42,9 @@ struct SymptomSelectionView: View {
                 }
                 SymptomRow(symptom: "Confusion/dizziness", isSelected: selectedSymptoms.contains("Confusion/dizziness")) {
                     toggleSymptom("Confusion/dizziness")
+                }
+                SymptomRow(symptom: "Headache", isSelected: selectedSymptoms.contains("Headache")) {
+                    toggleSymptom("Headache")
                 }
                 SymptomRow(symptom: "Direct trauma to head", isSelected: selectedSymptoms.contains("Direct trauma to head")) {
                     toggleSymptom("Direct trauma to head")
@@ -103,4 +105,3 @@ struct SymptomSelectionView_Previews: PreviewProvider {
         SymptomSelectionView(bodyPart: "Shoulder")
     }
 }
-

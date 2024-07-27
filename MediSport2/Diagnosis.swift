@@ -8,8 +8,8 @@
 import Foundation
 
 struct Diagnosis: Codable, Identifiable {
-    var id: String { bodyPart + symptoms.joined() }
-    var bodyPart: String
-    var symptoms: [String]
+    var id = UUID()
+    var symptoms: [String: String] // Key is symptom, value is "Y" or "N"
     var diagnosis: String
+    var details: String
 }

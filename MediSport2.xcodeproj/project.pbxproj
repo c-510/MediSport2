@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		671EC1582C4FFE0000D98000 /* NoSymptomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671EC1572C4FFE0000D98000 /* NoSymptomView.swift */; };
+		673F65732C54F76C008DAAAA /* orbital database - Sheet1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 673F65722C54F76C008DAAAA /* orbital database - Sheet1.csv */; };
+		673F65752C54F7DF008DAAAA /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 673F65742C54F7DF008DAAAA /* SwiftCSV */; };
 		675AA2432C072D7300E20092 /* UpperOrLower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675AA2422C072D7300E20092 /* UpperOrLower.swift */; };
 		6762285F2C083ABB00993E74 /* InjuryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6762285E2C083ABB00993E74 /* InjuryView.swift */; };
 		67FBEB1A2C072AA3004E826D /* MediSportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FBEB192C072AA3004E826D /* MediSportApp.swift */; };
@@ -53,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		671EC1572C4FFE0000D98000 /* NoSymptomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSymptomView.swift; sourceTree = "<group>"; };
+		673F65722C54F76C008DAAAA /* orbital database - Sheet1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "orbital database - Sheet1.csv"; sourceTree = "<group>"; };
 		675AA2422C072D7300E20092 /* UpperOrLower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperOrLower.swift; sourceTree = "<group>"; };
 		6762285E2C083ABB00993E74 /* InjuryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuryView.swift; sourceTree = "<group>"; };
 		67FBEB162C072AA3004E826D /* MediSport2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediSport2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673F65752C54F7DF008DAAAA /* SwiftCSV in Frameworks */,
 				D1062ADF2C31CC72002386EE /* Supabase in Frameworks */,
 				D1062ADD2C31CC72002386EE /* Storage in Frameworks */,
 				D1062ADB2C31CC72002386EE /* Functions in Frameworks */,
@@ -147,6 +151,7 @@
 				D1062AE02C31DC64002386EE /* Diagnosis.swift */,
 				D1062AE22C31DD32002386EE /* DataLoader.swift */,
 				D1062AE42C31DDE3002386EE /* diagnosis.json */,
+				673F65722C54F76C008DAAAA /* orbital database - Sheet1.csv */,
 				67FBEB1F2C072AA4004E826D /* Assets.xcassets */,
 				67FBEB212C072AA4004E826D /* MediSport2.entitlements */,
 				67FBEB222C072AA4004E826D /* Preview Content */,
@@ -200,6 +205,7 @@
 				D1062ADA2C31CC72002386EE /* Functions */,
 				D1062ADC2C31CC72002386EE /* Storage */,
 				D1062ADE2C31CC72002386EE /* Supabase */,
+				673F65742C54F7DF008DAAAA /* SwiftCSV */,
 			);
 			productName = MediSport2;
 			productReference = 67FBEB162C072AA3004E826D /* MediSport2.app */;
@@ -275,6 +281,7 @@
 			mainGroup = 67FBEB0D2C072AA3004E826D;
 			packageReferences = (
 				D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				673F65712C54F6EC008DAAAA /* XCRemoteSwiftPackageReference "SwiftCSV" */,
 			);
 			productRefGroup = 67FBEB172C072AA3004E826D /* Products */;
 			projectDirPath = "";
@@ -292,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673F65732C54F76C008DAAAA /* orbital database - Sheet1.csv in Resources */,
 				67FBEB242C072AA4004E826D /* Preview Assets.xcassets in Resources */,
 				D1062AE52C31DDE3002386EE /* diagnosis.json in Resources */,
 				67FBEB202C072AA4004E826D /* Assets.xcassets in Resources */,
@@ -698,6 +706,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		673F65712C54F6EC008DAAAA /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
 		D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/supabase-community/supabase-swift";
@@ -709,6 +725,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		673F65742C54F7DF008DAAAA /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 673F65712C54F6EC008DAAAA /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
 		D1062AD82C31CC72002386EE /* Auth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D1062AD72C31CC72002386EE /* XCRemoteSwiftPackageReference "supabase-swift" */;

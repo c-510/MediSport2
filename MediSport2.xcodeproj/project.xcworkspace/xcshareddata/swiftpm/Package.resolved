@@ -1,5 +1,5 @@
 {
-  "originHash" : "a2b47b975283c007063016d75469b395d89f8763da1d376160fb8c6dcfdb6109",
+  "originHash" : "34dd97a4123eed086bbf87d1c25c3bb61f70c5a4ee386a09d7ea01eb7b5623bd",
   "pins" : [
     {
       "identity" : "supabase-swift",
@@ -24,8 +24,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-crypto.git",
       "state" : {
-        "revision" : "bc1c29221f6dfeb0ebbfbc98eb95cd3d4967868e",
-        "version" : "3.4.0"
+        "revision" : "46072478ca365fe48370993833cb22de9b41567f",
+        "version" : "3.5.2"
+      }
+    },
+    {
+      "identity" : "swiftcsv",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftcsv/SwiftCSV",
+      "state" : {
+        "revision" : "6ab5d0fe9b6ef3c79d717eefa70862df389e74d9",
+        "version" : "0.10.0"
       }
     }
   ],

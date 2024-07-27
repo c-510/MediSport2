@@ -5,7 +5,7 @@
 //  Created by Javier Yeow on 30/6/24.
 //
 
-import Foundation
+
 import SwiftUI
 
 struct DiagnosisView: View {
@@ -13,12 +13,21 @@ struct DiagnosisView: View {
     var symptoms: [String]
     
     @State private var diagnosis: String?
-    
+    @State private var details: String?
+
     var body: some View {
         VStack {
             if let diagnosis = diagnosis {
                 Text(diagnosis)
                     .padding()
+                NavigationLink(destination: LearnMoreView(diagnosisDetail: details ?? "No additional details available")) {
+                    Text("Learn More About Your Diagnosis")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding(.top, 20)
             } else {
                 Text("Loading...")
                     .onAppear {
@@ -33,12 +42,53 @@ struct DiagnosisView: View {
     private func getDiagnosis() {
         let dataLoader = DataLoader()
         let diagnoses = dataLoader.loadDiagnosis()
-        diagnosis = diagnoses.first { $0.bodyPart == bodyPart && Set($0.symptoms).isSubset(of: Set(symptoms)) }?.diagnosis
+        
+        for diag in diagnoses {
+            let requiredSymptoms = diag.symptoms.filter { $0.value == "Y" }.keys
+            let optionalSymptoms = diag.symptoms.filter { $0.value == "N" }.keys
+
+            let requiredPresent = Set(requiredSymptoms).isSubset(of: Set(symptoms))
+            let optionalPresent = Set(optionalSymptoms).intersection(Set(symptoms)).count == optionalSymptoms.count || optionalSymptoms.isEmpty
+
+            print("Checking diagnosis: \(diag.diagnosis)")
+            print("Required symptoms: \(requiredSymptoms)")
+            print("Optional symptoms: \(optionalSymptoms)")
+            print("Selected symptoms: \(symptoms)")
+            print("Required present: \(requiredPresent)")
+            print("Optional present: \(optionalPresent)")
+
+            if requiredPresent && optionalPresent {
+                diagnosis = diag.diagnosis.replacingOccurrences(of: "{bodyPart}", with: bodyPart)
+                details = diag.details.replacingOccurrences(of: "{bodyPart}", with: bodyPart)
+                return
+            }
+        }
+        diagnosis = "No diagnosis found"
+        details = "Please consult a healthcare provider for further evaluation."
+    }
+}
+
+struct LearnMoreView: View {
+    var diagnosisDetail: String
+
+    var body: some View {
+        VStack {
+            Text("More Information")
+                .font(.largeTitle)
+                .padding()
+
+            Text(diagnosisDetail)
+                .font(.body)
+                .padding()
+            
+            Spacer()
+        }
+        .navigationBarTitle("Learn More", displayMode: .inline)
     }
 }
 
 struct DiagnosisView_Previews: PreviewProvider {
     static var previews: some View {
-        DiagnosisView(bodyPart: "Shoulder", symptoms: ["Pain"])
+        DiagnosisView(bodyPart: "Shoulder", symptoms: ["Pain", "Swelling"])
     }
 }

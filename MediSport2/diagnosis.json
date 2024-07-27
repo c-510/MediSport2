@@ -1,133 +1,110 @@
 [
     {
-        "bodyPart": "Shoulder",
-        "symptoms": ["Pain"],
-        "diagnosis": "You might have a rotator cuff injury. Rotator cuff injury may be the result of either a substantial injury to the shoulder or progressive degeneration of the tendon tissue. Repetitive overhead activity or heavy lifting over a prolonged period of time may irritate or damage the tendon."
+        "symptoms": {
+            "Visibly out of place or misshapen limb": "Y",
+            "Swelling": "Y",
+            "Bruising": "Y",
+            "Bleeding": "Y",
+            "Pain": "Y",
+            "Numbness and tingling": "Y",
+            "Loss of motion": "N",
+            "Bone is out of place": "N",
+            "Muscle spasms": "N",
+            "Confusion/dizziness": "N",
+            "Headache": "N",
+            "Direct trauma to head": "N"
+        },
+        "diagnosis": "You might have a fracture.",
+        "details": "1. Seek Medical Attention Immediately\nVisit the emergency room or your healthcare provider as soon as possible to get a professional diagnosis and treatment plan.\n\n2. Immobilize the Affected Area\nDo Not Move the Injured Area: Keep the fracture as still as possible to prevent further injury.\nUse a Splint: If available, use a splint or a sturdy object like a board to stabilize the limb until you can get medical help.\n\n3. Apply Ice\nReduce Swelling: Apply an ice pack wrapped in a cloth to the injured area for 15-20 minutes every hour. Do not apply ice directly to the skin.\n\n4.Control Bleeding (if applicable)\nUse a Clean Cloth or Bandage: Apply gentle pressure to stop any bleeding. If the bone is protruding, do not try to push it back in.\n\n5. Elevate the Injury\nReduce Swelling: Keep the injured area raised above heart level if possible to minimize swelling."
     },
     {
-        "bodyPart": "Shoulder",
-        "symptoms": ["Pain", "Swelling"],
-        "diagnosis": "You might have a shoulder bursitis. Bursitis is inflammation of a bursa, a closed, fluid-filled sac that works as a cushion and gliding surface to reduce friction between tissues of the body. Bursitis of the shoulder (impingement syndrome) occurs when there is swelling and redness between the top of the arm bone and the tip of the shoulder."
+        "symptoms": {
+            "Visibly out of place or misshapen limb": "Y",
+            "Swelling": "Y",
+            "Bruising": "Y",
+            "Bleeding": "Y",
+            "Pain": "Y",
+            "Numbness and tingling": "Y",
+            "Loss of motion": "Y",
+            "Bone is out of place": "Y",
+            "Muscle spasms": "N",
+            "Confusion/dizziness": "N",
+            "Headache": "N",
+            "Direct trauma to head": "N"
+        },
+        "diagnosis": "You might have a dislocation.",
+        "details": "1. Seek Medical Attention Immediately\nEmergency Care: Call for emergency medical help or go to the nearest emergency room as soon as possible.\n\n2. Do Not Attempt to Relocate the Joint\nAvoid Self-Adjustment: Do not try to pop the joint back into place yourself, as this can cause further injury to the ligaments, blood vessels, and nerves.\n\n3. Immobilize the Joint\nUse a Sling or Splint: Keep the joint as still as possible. Use a sling for a shoulder dislocation or a splint for other joints to prevent movement.\n\n4. Apply Ice\nReduce Swelling and Pain: Apply an ice pack or a cold compress to the affected area for 15-20 minutes at a time. Do not apply ice directly to the skin; wrap it in a cloth or towel.\n\n5. Elevate the Injured Area\nReduce Swelling: If possible, elevate the injured limb above the level of the heart to help reduce swelling."
     },
     {
-        "bodyPart": "Shoulder",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling"],
-        "diagnosis": "You might have a shoulder fracture. A shoulder fracture happens when something breaks any of the three bones in your shoulder joint. It’s usually caused by traumas like car accidents or sports injuries. You’ll have to wear a brace or sling for a few weeks, and you might need surgery to repair your bone. It usually takes a few months to recover fully from a fractured shoulder. Seek prompt medical attention."
+        "symptoms": {
+            "Visibly out of place or misshapen limb": "N",
+            "Swelling": "Y",
+            "Bruising": "Y",
+            "Bleeding": "N",
+            "Pain": "Y",
+            "Numbness and tingling": "N",
+            "Loss of motion": "N",
+            "Bone is out of place": "N",
+            "Muscle spasms": "N",
+            "Confusion/dizziness": "N",
+            "Headache": "N",
+            "Direct trauma to head": "N"
+        },
+        "diagnosis": "You might have a sprain.",
+        "details": "Sprains are injuries to the ligaments surrounding a joint. Treatment typically involves rest, ice, compression, and elevation (RICE). Seek medical attention if pain persists or if you are unable to use the affected joint."
     },
     {
-        "bodyPart": "Shoulder",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling", "Loss of motion"],
-        "diagnosis": "You might have a shoulder dislocation. A dislocated shoulder is an injury in which the upper arm bone pops out of the cup-shaped socket that's part of the shoulder blade. The shoulder is the body's most flexible joint, which makes it more likely to dislocate. If you suspect a dislocated shoulder, seek prompt medical attention."
+        "symptoms": {
+            "Visibly out of place or misshapen limb": "N",
+            "Swelling": "Y",
+            "Bruising": "N",
+            "Bleeding": "N",
+            "Pain": "Y",
+            "Numbness and tingling": "Y",
+            "Loss of motion": "N",
+            "Bone is out of place": "N",
+            "Muscle spasms": "Y",
+            "Confusion/dizziness": "N",
+            "Headache": "N",
+            "Direct trauma to head": "N"
+        },
+        "diagnosis": "You might have a strain.",
+        "details": "Strains are injuries to muscles or tendons caused by overstretching or overuse. Treatment typically involves rest, ice, compression, and elevation (RICE). Pain relievers and physical therapy may also be recommended."
     },
     {
-        "bodyPart": "Shoulder",
-        "symptoms": ["Pain", "Swelling", "Bruising"],
-        "diagnosis": "You might have a shoulder sprain. Shoulders are one of the most commonly injured joints, and sprains are a common injury. They happen when something forces ligaments in your shoulder to stretch too far or tear. Sports injuries and falls cause most sprained shoulders. You’ll probably be able to manage your symptoms with at-home treatments, but seek medical attention should pain persist."
+        "symptoms": {
+            "Visibly out of place or misshapen limb": "N",
+            "Swelling": "N",
+            "Bruising": "N",
+            "Bleeding": "N",
+            "Pain": "N",
+            "Numbness and tingling": "N",
+            "Loss of motion": "N",
+            "Bone is out of place": "N",
+            "Muscle spasms": "N",
+            "Confusion/dizziness": "Y",
+            "Headache": "Y",
+            "Direct trauma to head": "Y"
+        },
+        "diagnosis": "You might have a concussion.",
+        "details": "Concussions are traumatic brain injuries caused by a blow to the head. Symptoms include headache, confusion, dizziness, and nausea. Seek immediate medical attention if you suspect a concussion."
     },
     {
-        "bodyPart": "Shoulder",
-        "symptoms": ["Pain", "Swelling", "Numbness/tingling", "Muscle spasms"],
-        "diagnosis": "You might have a shoulder strain. You might have a shoulder strain. Shoulders are one of the most commonly injured joints, and strains are a common injury. They happen when something forces muscles in your shoulder to stretch too far or tear. Sports injuries and falls cause most sprained shoulders. You’ll probably be able to manage your symptoms with at-home treatments, but seek medical attention should pain persist."
-    },
-    {
-        "bodyPart": "Elbow",
-        "symptoms": ["Pain"],
-        "diagnosis": "You might have tennis elbow. Tennis elbow, also known as lateral epicondylitis, is a condition that can result from overuse of the muscles and tendons in the elbow. Tennis elbow is often linked to repeated motions of the wrist and arm. Pain can spread into the forearm and wrist."
-    },
-    {
-        "bodyPart": "Elbow",
-        "symptoms": ["Pain", "Swelling", "Bruising"],
-        "diagnosis": "You might have an elbow sprain. Elbow sprains are injuries to the ligaments around the elbow joint and can happen when the arm is bent or twisted quickly or forcibly. Pulled or torn ligaments can be extremely painful and limit your ability to move your elbow."
-    },
-    {
-        "bodyPart": "Elbow",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling", "Loss of motion"],
-        "diagnosis": "You might have an elbow dislocation. Dislocated elbows are one of the most common types of dislocation. Falls and sports injuries are the usual causes. Never try to push your elbow back into place, and don’t let anyone other than a professional healthcare provider reset it. Go to the emergency room as soon as you think you have a dislocation."
-    },
-    {
-        "bodyPart": "Elbow",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling"],
-        "diagnosis": "You might have an elbow fracture. Elbow fractures can occur due to falls, twisting injuries or blunt force trauma. Elbow fractures can be addressed with surgical or non-surgical treatments, depending on the severity of the break. Seek medical attention immediately"
-    },
-    {
-        "bodyPart": "Head",
-        "symptoms": ["Pain", "Confusion/dizziness", "Direct trauma to head"],
-        "diagnosis": "You might have a concussion. A concussion is a mild traumatic brain injury that affects brain function. Effects are often short term and can include headaches and trouble with concentration, memory, balance, mood and sleep. Seek medical attention immediately."
-    },
-    {
-        "bodyPart": "Head",
-        "symptoms": ["Confusion/dizziness", "Numbness/tingling"],
-        "diagnosis": "You might have heat exhaustion. Heat exhaustion happens when your body overheats and can't cool itself down. It usually results from physical activity in hot weather. Symptoms include dizziness, confusion and nausea. They usually improve by drinking water and resting in a cool place. Seek medical attention immediately if you experience signs of heat exhaustion."
-    },
-    {
-        "bodyPart": "Wrist",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling"],
-        "diagnosis": "You might have a wrist fracture. A wrist fracture can mean that a person has broken one of the small (carpal) bones in this joint or, more commonly, the distal radius, which is the larger of the two bones that make up the forearm. Seek immediate medical attention."
-    },
-    {
-        "bodyPart": "Wrist",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling", "Loss of motion"],
-        "diagnosis": "You might have a wrist dislocation. Wrist dislocations can occur at the radiocarpal joint, the midcarpal joint, the distal radioulnar joint or may represent a combination of these injuries in severe trauma. Seek immediate medical attention."
-    },
-    {
-        "bodyPart": "Wrist",
-        "symptoms": ["Pain", "Swelling", "Bruising"],
-        "diagnosis": "You might have a wrist sprain. Wrist sprains are common injuries that are usually caused by falls or sports injuries. You can usually treat a sprained wrist at home with rest, ice, compression and over-the-counter medicine. Visit a healthcare provider to make sure you didn’t damage the bones or other tissue in your wrist when you were hurt."
-    },
-    {
-        "bodyPart": "Finger",
-        "symptoms": ["Pain", "Swelling", "Bruising"],
-        "diagnosis": "You might have a finger jam. A jammed finger or sprained finger is usually the result of an injury or fall. It causes pain, swelling and tenderness in your finger. You can treat mild sprains at home. If you have severe pain and swelling, visit a healthcare provider. Most jammed fingers heal within one to two weeks."
-    },
-    {
-        "bodyPart": "Finger",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling", "Loss of motion"],
-        "diagnosis": "You might have a finger dislocation. Finger joint dislocation is a common hand injury. Finger dislocation can occur at the proximal interphalangeal (PIP), distal interphalangeal (DIP), or metacarpophalangeal (MCP) joints. Unrecognized or untreated finger dislocations are associated with deformities, stiffness, loss of function, and chronic pain. Seek medical attention immediately."
-    },
-    {
-        "bodyPart": "Finger",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling"],
-        "diagnosis": "You might have a finger fracture. A fractured or broken finger is a common bone break. It occurs due to injury or weakened bones. Your provider will use X-rays to diagnose finger fractures. Treatments usually include splints or surgery, for more severe fractures. Broken fingers generally heal well after treatment and rehabilitation. Seek medical attention immediately if you suspect a fracture in your finger."
-    },
-    {
-        "bodyPart": "Knee",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling"],
-        "diagnosis": "You might have a knee fracture. A patellar fracture is a break in the patella, or kneecap, the small bone that sits at the front of your knee. A patellar fracture is a serious injury that can make it difficult or even impossible to straighten your knee or walk. Some simple patellar fractures can be treated by wearing a cast or splint until the bone heals. However, for most complex fractures, surgical action is needed."
-    },
-    {
-        "bodyPart": "Knee",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling", "Loss of motion"],
-        "diagnosis": "You might have a knee dislocation. A dislocated knee involves the other two bones that make up the knee joint: the thighbone (femur) and the shinbone (tibia). When your knee is dislocated, the femur and tibia no longer connect at the knee joint. One of the bones has been forced backward or forward relative to the other bone."
-    },
-    {
-        "bodyPart": "Knee",
-        "symptoms": ["Pain", "Swelling", "Bruising", "Numbness/tingling", "Loss of motion"],
-        "diagnosis": "You might have a knee ligament injury. There are 4 major ligaments in the knee. Ligaments are elastic bands of tissue that connect bones to each other and provide stability and strength to the joint. Often, a cruciate ligament injury does not cause pain. Instead, the person may hear a popping sound as the injury occurs, followed by the leg buckling when trying to stand on it, and swelling. However, each individual may experience symptoms differently. The medial collateral ligament is injured more often than the lateral collateral ligament. Stretch and tear injuries to the collateral ligaments are usually caused by a blow to the outer side of the knee, such as when playing hockey or football."
-    },
-    {
-        "bodyPart": "Ankle",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling"],
-        "diagnosis": "You might have an ankle fracture. A broken ankle is a fracture or multiple fractures of one or more of three bones in the ankle joint: the tibia (shinbone), the fibula (outer bone of the lower leg), and the talus. Broken ankles are usually caused by a rotational injury, where the ankle becomes twisted, turned or rolled while walking or running, such as during sports activity. But they can also be caused by a high-force impact, such as from a fall or automobile collision."
-    },
-    {
-        "bodyPart": "Ankle",
-        "symptoms": ["Pain", "Swelling", "Bruising"],
-        "diagnosis": "You might have an ankle sprain. A sprained ankle is an injury that occurs when you roll, twist or turn your ankle in an awkward way. This can stretch or tear the tough bands of tissue (ligaments) that help hold your ankle bones together. To decrease pain and swelling and protect the ligaments from further injury, this usually means adopting the classic RICE regimen — rest, ice, compression, and elevation."
-    },
-    {
-        "bodyPart": "Ankle",
-        "symptoms": ["Pain", "Visibly out of place or misshapen limb", "Swelling", "Bruising", "Bleeding", "Numbness/tingling", "Loss of motion"],
-        "diagnosis": "You might have an ankle dislocation. The ankle joint is made up of two lower leg bones (tibia and fibula) and a foot bone (talus). A dislocation is an injury to a joint causing the bones to no longer meet together correctly. In the ankle, this can occur when the talus no longer is in position with the tibia and fibula. Seek medical attention immediately."
-    },
-    {
-        "bodyPart": "Thigh",
-        "symptoms": ["Pain", "Swelling"],
-        "diagnosis": "You might have a hamstring muscle strain. Muscle overload is the main cause of hamstring muscle strain. This can happen when the muscle is stretched beyond its capacity or challenged with a sudden load. Hamstring muscle strains often occur when the muscle lengthens as it contracts, or shortens. Self-care measures such as rest, ice and pain medicine are effective in treating it."
-    },
-    {
-        "bodyPart": "Calf",
-        "symptoms": ["Pain", "Swelling", "Numbness/tingling", "Muscle spasms"],
-        "diagnosis": "You might have a strained calf. A pulled calf muscle occurs when you overstretch the muscles in the back of your lower leg. Also called calf muscle strains, this injury can involve mild overstretching or complete tearing of the muscle. Mild injuries usually improve with rest, ice, compression and elevation. A torn calf muscle may require surgery."
+        "symptoms": {
+            "Visibly out of place or misshapen limb": "N",
+            "Swelling": "N",
+            "Bruising": "N",
+            "Bleeding": "N",
+            "Pain": "N",
+            "Numbness and tingling": "Y",
+            "Loss of motion": "N",
+            "Bone is out of place": "N",
+            "Muscle spasms": "N",
+            "Confusion/dizziness": "Y",
+            "Headache": "Y",
+            "Direct trauma to head": "N"
+        },
+        "diagnosis": "You might have heat exhaustion.",
+        "details": "Heat exhaustion occurs when the body overheats, often due to prolonged exposure to high temperatures or strenuous physical activity. Symptoms include heavy sweating, weakness, confusion, dizziness, and nausea. Move to a cooler place, drink water, and rest. Seek medical attention if symptoms persist or worsen."
     }
 ]
-
