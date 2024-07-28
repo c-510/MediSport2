@@ -4,12 +4,13 @@
 //
 //  Created by Javier Yeow on 30/6/24.
 //
+
 import SwiftUI
 
 struct SymptomSelectionView: View {
     var bodyPart: String
     @State private var selectedSymptoms: [String] = []
-    
+
     var body: some View {
         VStack {
             Text("Select the symptoms for \(bodyPart)")
@@ -70,7 +71,7 @@ struct SymptomSelectionView: View {
             .padding(.top, 10)
         }
     }
-    
+
     private func toggleSymptom(_ symptom: String) {
         if selectedSymptoms.contains(symptom) {
             selectedSymptoms.removeAll { $0 == symptom }
@@ -84,7 +85,7 @@ struct SymptomRow: View {
     var symptom: String
     var isSelected: Bool
     var action: () -> Void
-    
+
     var body: some View {
         HStack {
             Text(symptom)

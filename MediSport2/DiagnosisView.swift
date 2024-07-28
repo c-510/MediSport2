@@ -1,11 +1,3 @@
-//
-//  DiagnosisView.swift
-//  MediSport2
-//
-//  Created by Javier Yeow on 30/6/24.
-//
-
-
 import SwiftUI
 
 struct DiagnosisView: View {
@@ -48,16 +40,15 @@ struct DiagnosisView: View {
             let optionalSymptoms = diag.symptoms.filter { $0.value == "N" }.keys
 
             let requiredPresent = Set(requiredSymptoms).isSubset(of: Set(symptoms))
-            let optionalPresent = Set(optionalSymptoms).intersection(Set(symptoms)).count == optionalSymptoms.count || optionalSymptoms.isEmpty
 
+            // Debugging statements
             print("Checking diagnosis: \(diag.diagnosis)")
             print("Required symptoms: \(requiredSymptoms)")
             print("Optional symptoms: \(optionalSymptoms)")
             print("Selected symptoms: \(symptoms)")
             print("Required present: \(requiredPresent)")
-            print("Optional present: \(optionalPresent)")
 
-            if requiredPresent && optionalPresent {
+            if requiredPresent {
                 diagnosis = diag.diagnosis.replacingOccurrences(of: "{bodyPart}", with: bodyPart)
                 details = diag.details.replacingOccurrences(of: "{bodyPart}", with: bodyPart)
                 return
@@ -89,6 +80,6 @@ struct LearnMoreView: View {
 
 struct DiagnosisView_Previews: PreviewProvider {
     static var previews: some View {
-        DiagnosisView(bodyPart: "Shoulder", symptoms: ["Pain", "Swelling"])
+        DiagnosisView(bodyPart: "Head", symptoms: ["Confusion/dizziness", "Headache", "Direct trauma to head"])
     }
 }
