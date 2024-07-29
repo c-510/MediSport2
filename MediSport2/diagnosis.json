@@ -82,8 +82,8 @@
             "Loss of motion": "N",
             "Bone is out of place": "N",
             "Muscle spasms": "N",
-            "Confusion/dizziness": "Y",
-            "Headache": "Y",
+            "Confusion/dizziness": "N",
+            "Headache": "N",
             "Direct trauma to head": "Y"
         },
         "diagnosis": "You might have a concussion.",
