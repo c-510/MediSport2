@@ -20,7 +20,6 @@ class DataLoader {
         do {
             let data = try Data(contentsOf: url)
             print("Data loaded successfully: \(data.count) bytes")
-            let jsonString = String(data: data, encoding: .utf8)
             let diagnoses = try JSONDecoder().decode([Diagnosis].self, from: data)
             print("Diagnoses parsed successfully")
             return diagnoses
